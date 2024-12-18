@@ -810,7 +810,8 @@ class CommandArgument(object):
                        'mp-as-set': ('as-set', 'no-as-set'),
                        'no-prepend': 'no-prepend',
                        'replace-as': 'replace-as',
-                       'blackhole': 'blackhole'
+                       'blackhole': 'blackhole',
+                       'up': 'up'
         }
         if format == 'no-prefix':
             return 'no ' if not self.enabled else ''
